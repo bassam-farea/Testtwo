@@ -6,8 +6,10 @@ class HomePageController < ApplicationController
   end
   
   def location
+    render :layout => 'custom.html.erb'
   end
   
   def contact
+    
   end
 end

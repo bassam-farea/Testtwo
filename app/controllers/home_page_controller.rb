@@ -6,6 +6,7 @@ class HomePageController < ApplicationController
   end
   
   def location
+    title = "" 
     render :layout => 'custom.html.erb'
   end
   

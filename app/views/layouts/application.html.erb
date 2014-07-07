@@ -3,9 +3,7 @@
 <head>
   <title>Demo App | <%= yield(:title) %></title>
   <meta name="description" content="<%= yield(:desc) %>"></meta>
-  <% if :title == 'location'%>
-  <meta name="description" content= get_the_current_time></meta>
-  <%end%>
+  
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
